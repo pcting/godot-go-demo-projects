@@ -5,10 +5,12 @@ import (
 	"unsafe"
 
 	"github.com/godot-go/godot-go/pkg/gdnative"
+	"github.com/godot-go/godot-go/pkg/log"
 )
 
 //export godot_gdnative_init
 func godot_gdnative_init(options unsafe.Pointer) {
+	log.Info("godot-go init", gdnative.StringField("version", gdnative.Version))
 	gdnative.GodotGdnativeInit((*gdnative.GdnativeInitOptions)(options))
 }
 

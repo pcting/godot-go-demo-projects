@@ -7,4 +7,5 @@ require (
 	github.com/magefile/mage v1.10.0
 )
 
-replace github.com/godot-go/godot-go => ../../../godot-go
+// replace github.com/godot-go/godot-go => ../../../godot-go
+replace github.com/godot-go/godot-go => github.com/pcting/godot-go v0.0.0-20201111045656-964823d1b483

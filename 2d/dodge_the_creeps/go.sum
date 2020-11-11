@@ -83,6 +83,9 @@ github.com/onsi/ginkgo v1.6.0/go.mod h1:lLunBs/Ym6LB5Z9jYTR76FiuTmxDTDusOGeTQH+W
 github.com/onsi/ginkgo v1.12.0/go.mod h1:oUhWkIvk5aDxtKvDDuw8gItl8pKl42LzjC9KZE0HfGg=
 github.com/onsi/gomega v1.7.1/go.mod h1:XdKZgCCFLUoM/7CFJVPcG8C1xQ1AJ0vpAezJrB7JYyY=
 github.com/onsi/gomega v1.9.0/go.mod h1:Ho0h+IUsWyvy1OpqCwxlQ/21gkhVunqlU8fDGcoTdcA=
+github.com/pcting/godot-go v0.0.0-20201111044904-29302cd4c80c/go.mod h1:CGpYMM2LR5Hjxe8HEJA7SJHVUMWkUKJdxxCmBvHU1Wk=
+github.com/pcting/godot-go v0.0.0-20201111045656-964823d1b483 h1:07rt4KUQeXZJQiZ8V7p0q/sMMVbcctdElyVOopkYaeY=
+github.com/pcting/godot-go v0.0.0-20201111045656-964823d1b483/go.mod h1:CGpYMM2LR5Hjxe8HEJA7SJHVUMWkUKJdxxCmBvHU1Wk=
 github.com/pelletier/go-toml v1.2.0/go.mod h1:5z9KED0ma1S8pY6P1sdut58dfprrGBbd/94hg7ilaic=
 github.com/pinzolo/casee v0.0.0-20191019093852-17765ba5eb57/go.mod h1:dNs9tp0e1Tst75lQVHa7QJNLdGOaddO3fdyEMHkMKxQ=
 github.com/pkg/errors v0.8.0/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
