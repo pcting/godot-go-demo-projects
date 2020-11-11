@@ -113,7 +113,7 @@ func runPlugin(appPath string) error {
 	return sh.RunWith(
 		map[string]string{
 			"GOTRACEBACK": "crash",
-			"GODEBUG": "asyncpreemptoff=1,cgocheck=1,invalidptr=1,clobberfree=1,tracebackancestors=3",
+			"GODEBUG": "asyncpreemptoff=1,cgocheck=1,invalidptr=1,clobberfree=1,tracebackancestors=2",
 			"LOG_LEVEL": "debug",
 			"TEST_USE_GINKGO_WRITER": "1",
 		},
